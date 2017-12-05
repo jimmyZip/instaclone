@@ -6,38 +6,94 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css">
-		
 	</head>
 	<body>
 		<!--Instagram Header-->
 		<header>
-			<div class="header_inner">
+			<nav class="nav header_inner">
 				<!--logo of insta-->
 				<div class="logo_container">
-					로고 들어가라
+					<!--로고 들어가라-->
+					<a href="feed.html" title="to instaclone feed home">
+						<img src="images/feed_logo.png" alt="instaclone feed logo" title="feed_logo"/>
+					</a>
 				</div>
 				<!--search-->
 				<div class="search_container">
 					<div class="search_logo">
-						
+						<i class="fa fa-search"></i>
 					</div>
 					<div class="query">
-						
+						<input id="searchbox" type="text" name="searchbox" placeholder="search"/>
 					</div>
 				</div>
-				<!--explorer-->
+				<!--explorer / the ritght three columns-->
 				<div class="explorer_container">
+					<!-- explorer -->
 					<div class="explorer">
-						
+						<a class="navigation_link" href="explore.html" title="explorer">
+							<i class="fa fa-compass"></i>
+						</a>
 					</div>
-					<div class="feed">
-						
+					<!-- likes feed -->
+					<div class="likes">
+						<a class="navigation_link" href="likes.html" title="likes_feed">
+							<i class="fa fa-heart-o"></i>
+						</a>
 					</div>
+					<!-- profile -->
 					<div class="profile">
-						
+						<a class="navigation_link" href="profile.html" title="profile">
+							<i class="fa fa-user-o"></i>
+						</a>
 					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- main : photo feed display zone -->
+		<main id="feed_container">
+			<!--  author info -->
+			<div class="author_container">
+				<img src="images/avatar.jpg" alt="avatar_img"/>
+				<div class="author_name">
+					Sana_clone_by_jimmyZip
 				</div>
 			</div>
-		</header>
+			<!-- main image -->
+			<div>
+				<img src="images/twice_sana.jpg" alt="sana_img"/>
+			</div>
+			<!-- contents container -->
+			<div class="contents_container">
+				<!--좋아요 등의 사용자 액션 아이콘 표시부분-->
+				<div class="action_container">
+					<i class="fa fa-heart-o"></i>
+					<i class="fa fa-comment-o"></i>
+				</div>
+				<!-- likes numeric 좋아요 갯수 카운팅존 -->
+				<strong class="likes_count">
+					<span class="likes_number">99</span>likes
+				</strong>
+				<!-- 작성된 댓글 -->
+				<ul class="comment_container">
+					<li class="comment_content">
+						<strong class="comment_author">Sana</strong>Cheeeeese Kimbob
+					</li>
+					<li class="comment_content">
+						<strong class="comment_author">kkkkk</strong>아형에서 Cheeeeese Kimbob보고 심쿵사할뻔 >_<
+					</li>
+					<li class="comment_content">
+						<strong class="comment_author">Jihyo</strong>역시 트와이스는 사나지!!
+					</li>
+				</ul>
+				<!--upload time-->
+				<span class="upload_time">13 hores ago</span>
+				<!-- adding comment-->
+				<div class="addComment_container">
+					<input type="text" placeholder="Add comment here...">
+					<i class="fa fa-ellipsis-h"></i>
+				</div>
+			</div>
+		</main>
 	</body>
 </html>
