@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="kr">
+	<head>
+		<title>register | instagram_clone_by_jimmyZip</title>
+		<meta description="login page for instagram clone application by jimmyZip">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/reset.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+	</head>
+	<body>
+		<div id="register_wrapper">
+			<section class="register_container">
+				<!--image area for login-->
+				<article class="img_area">
+					<img src="images/phoneImage.png" alt="mobile image for login page"/>
+				</article>
+				<!-- form area -->
+				<div class="form_area_container">
+					<!-- register form -->
+					<form action="#" method="post" id="register_user_info">
+						<!-- sign in area -->
+						<fieldset class="box1">
+							<legend>submit area to sign up</legend>
+							<!-- sign in area logo -->
+							<p class="logo_for_sign_up">
+								<img src="images/logoLogin.png" alt="sign up page logo"/>
+							</p>
+							<!-- alternate _ facebook login or reset password -->
+							<p class="alternate_login">
+								<button class="fb_login_btn">
+									<a href="#none" title="sign in with facebook account">
+										<span class="bg_fb_icon"></span>
+										<span>sign in with Facebook account</span>
+									</a>
+								</button>
+							</p>
+							<!-- divide line-->
+							<div class="divide_line">
+								<span class="div_line"></span>
+								<span>or</span>
+								<span class="div_line"></span>
+							</div>
+							<!-- input boxes -->
+							<div class="input_area">
+								<input id="username" type="text" name="username" placeholder="your phone number, name or email address" required="required" autocomplete="off" autofocus="on"/>
+								<input id="nickname" type="text" name="nickname" placeholder="user nickname" required="required" autocomplete="off"/>
+								<input id="userpw" type="password" name="userpw" placeholder="password" required="required" autocomplete="off"/>
+								<input type="submit" value="sign up"/>
+							</div>
+							<p class="register_info">
+								<span>By signing up, you will agree to Instagram's <a href="https://help.instagram.com/478745558852511" title="terms">terms</a> and <a href="https://help.instagram.com/155833707900388" title="privacy policy">privacy policies.</a></span>
+							</p>
+						</fieldset>
+						
+						<!-- sign in link area -->
+						<fieldset class="box2">
+							<legend>link to sign in</legend>
+							<p class="sign_in_link">
+								<span>Do you have an account?</span>
+								<a href="login.html" title="page for sign in">sign in now</a>
+							</p>
+						</fieldset>
+					</form>
+					<!-- download links for mobile app-->
+					<div class="mobile_app_link">
+						<span>download mobile app</span>
+						<!-- download link btns-->
+						<p class="link_btn_container">
+							<a href="#none" title="download link for android" class="for_android">
+								<img src="images/android.png" alt="mobile insta app download link img for android">
+							</a>
+							<a href="#none" title="download link for ios" class="for_ios">
+								<img src="images/ios.png" alt="mobile insta app download link img for ios">
+							</a>
+						</p>
+					</div>
+				</div>
+			</section>
+		</div>
+		
+		<!--login footer-->
+		<footer class="footer">
+			<nav class="footer_nav">
+				<ul class="footer_link_list">
+					<li class="footer_items">
+						<a href="#none" title="about us">
+							about us
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="support">
+							support
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="blog">
+							blog
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="press">
+							press
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="api">
+							api
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="jobs">
+							jobs
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="privacy policy">
+							privacy policy
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="terms">
+							terms
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="directory">
+							directory
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="language">language</a>
+					</li>
+				</ul>
+			</nav>
+			<span class="footer_copyright">
+				&copy; 2017 Instagram_clone_lectured_by_Alex Kyungho Park | clone_page_by_jimmyZip
+			</span>
+		</footer>
+		<script
+		  src="https://code.jquery.com/jquery-3.2.1.min.js"
+		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		  crossorigin="anonymous"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
