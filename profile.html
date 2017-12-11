@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="kr">
+	<head>
+		<title>profile_instagram_clone_by_jimmyZip</title>
+		<meta description="profile page of instagram clone application by jimmyZip">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/reset.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+	</head>
+	<body>
+		<!--Instagram Header-->
+		<header>
+			<nav class="nav header_inner">
+				<!--logo of insta-->
+				<div class="logo_container">
+					<!--로고 들어가라-->
+					<a href="feed.html" title="to instaclone feed home">
+						<img src="images/feed_logo.png" alt="instaclone feed logo" title="feed_logo"/>
+					</a>
+				</div>
+				<!--search-->
+				<div class="search_container">
+					<div class="search_logo">
+						<i class="fa fa-search"></i>
+					</div>
+					<div class="query">
+						<input id="searchbox" type="text" name="searchbox" placeholder="search"/>
+					</div>
+				</div>
+				
+				<!--explorer / the ritght three columns-->
+				<div class="explorer_container">
+					<!-- explorer -->
+					<div class="explorer">
+						<a class="navigation_link" href="explore.html" title="explorer">
+							<i class="fa fa-compass"></i>
+						</a>
+					</div>
+					<!-- likes feed -->
+					<div class="likes">
+						<a class="navigation_link" href="likes.html" title="likes_feed">
+							<i class="fa fa-heart-o"></i>
+						</a>
+					</div>
+					<!-- profile -->
+					<div class="profile">
+						<a class="navigation_link" href="profile.html" title="profile">
+							<i class="fa fa-user-o"></i>
+						</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- main : photo feed display zone -->
+		<main id="profile_zone">
+			<!--  header in profile_zone -->
+			<header class="profile_header">
+				<!--profile image-->
+				<div class="profile_image_container">
+					<img class="profile_avatar" src="images/avatar.jpg" alt="profile_avatar_image"/>
+				</div>
+				<!--profile info-->
+				<div class="profile_info">
+					<!-- name, editing profile btn, settings -->
+					<ul class="profile_name">
+						<li>
+							<h2>Sana_Twice_clone</h2>
+							<button class="profile_name_btn" type="button">
+								<a href="edit.html" title="editing profile page">
+									Edit Profile
+								</a>
+							</button>
+							<button class=""profile_name_setting type="button">
+								<a href="edit.html" title="editing profile page_setting">
+									<i class="fa fa-cog"></i>
+								</a>
+							</button>
+						</li>
+					</ul>
+
+					<!-- posts, followers, following -->
+					<ul class="profile_status">
+						<li class="profile_status_post">
+							<span class="post_num">312</span>post
+						</li>
+						<li class="profile_status_follower">
+							<span class="follower_num">284</span>followers
+						</li>
+						<li class="profile_status_following">
+							<span class="following_num">282</span>following
+						</li>
+					</ul>
+
+					<!-- name, profile description -->
+					<div class="profile_description">
+						<ul>
+							<li>
+								<span class="description_name">
+									Sana_Twice_clone
+								</span>
+								<a href="#none" title="hash tag">
+									#Cheeeeeeese_Gimbab!!
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</header>
+			
+			<!-- images part -->
+			<div class="profile_row_image_container">
+				<ul class="profile_images">
+					<li class="profile_row_image_container">
+						<a href="image_detail.html">
+							<img src="images/twice_sana.jpg" alt="sana_img1" class="profile_row_image"/>
+							<div class="profile_row_image_overlay">
+								<span class="profile_row_image_stat">
+									<i class="fa fa-heart fa-lg"></i>239
+								</span>
+								<span class="profile_row_image_stat">
+									<i class="fa fa-comment fa-lg"></i>
+									450
+								</span>
+							</div>
+						</a>
+					</li>
+					<li class="profile_row_image_container">
+						<a href="image_detail.html">
+							<img src="images/back.jpg" alt="sana_img2" class="profile_row_image"/>
+							<div class="profile_row_image_overlay">
+								<span class="profile_row_image_stat">
+									<i class="fa fa-heart fa-lg"></i>239
+								</span>
+								<span class="profile_row_image_stat">
+									<i class="fa fa-comment fa-lg"></i>
+									450
+								</span>
+							</div>
+						</a>
+					</li>
+					<li class="profile_row_image_container">
+						<a href="image_detail.html">
+							<img src="images/cheesegimbab.jpg" alt="sana_img3" class="profile_row_image"/>
+							<div class="profile_row_image_overlay">
+								<span class="profile_row_image_stat">
+									<i class="fa fa-heart fa-lg"></i>999
+								</span>
+								<span class="profile_row_image_stat">
+									<i class="fa fa-comment fa-lg"></i>
+									999
+								</span>
+							</div>
+						</a>
+					</li>
+					<li class="profile_row_image_container">
+						<a href="image_detail.html">
+							<img src="images/gf_jjal.jpg" alt="sana_img4" class="profile_row_image"/>
+							<div class="profile_row_image_overlay">
+								<span class="profile_row_image_stat">
+									<i class="fa fa-heart fa-lg"></i>239
+								</span>
+								<span class="profile_row_image_stat">
+									<i class="fa fa-comment fa-lg"></i>
+									450
+								</span>
+							</div>
+						</a>
+					</li>
+					<li class="profile_row_image_container">
+						<a href="image_detail.html">
+							<img src="images/pink_sana.jpg" alt="sana_img5" class="profile_row_image"/>
+							<div class="profile_row_image_overlay">
+								<span class="profile_row_image_stat">
+									<i class="fa fa-heart fa-lg"></i>239
+								</span>
+								<span class="profile_row_image_stat">
+									<i class="fa fa-comment fa-lg"></i>
+									450
+								</span>
+							</div>
+						</a>
+					</li>
+					<li class="profile_row_image_container">
+						<a href="image_detail.html">
+							<img src="images/sana_mana.jpg" alt="sana_img6" class="profile_row_image"/>
+							<div class="profile_row_image_overlay">
+								<span class="profile_row_image_stat">
+									<i class="fa fa-heart fa-lg"></i>239
+								</span>
+								<span class="profile_row_image_stat">
+									<i class="fa fa-comment fa-lg"></i>
+									450
+								</span>
+							</div>
+						</a>
+					</li>
+					<li class="profile_row_image_container">
+						<a href="image_detail.html">
+							<img src="images/signal_sana.jpg" alt="sana_img7" class="profile_row_image"/>
+							<div class="profile_row_image_overlay">
+								<span class="profile_row_image_stat">
+									<i class="fa fa-heart fa-lg"></i>239
+								</span>
+								<span class="profile_row_image_stat">
+									<i class="fa fa-comment fa-lg"></i>
+									450
+								</span>
+							</div>
+						</a>
+					</li>
+					<li class="profile_row_image_container">
+						<a href="image_detail.html">
+							<img src="images/sorry_sana.jpg" alt="sana_img8" class="profile_row_image"/>
+							<div class="profile_row_image_overlay">
+								<span class="profile_row_image_stat">
+									<i class="fa fa-heart fa-lg"></i>239
+								</span>
+								<span class="profile_row_image_stat">
+									<i class="fa fa-comment fa-lg"></i>
+									450
+								</span>
+							</div>
+						</a>
+					</li>
+					<li class="profile_row_image_container">
+						<a href="image_detail.html">
+							<img src="images/tt_sana.jpg" alt="sana_img9" class="profile_row_image"/>
+							<div class="profile_row_image_overlay">
+								<span class="profile_row_image_stat">
+									<i class="fa fa-heart fa-lg"></i>239
+								</span>
+								<span class="profile_row_image_stat">
+									<i class="fa fa-comment fa-lg"></i>
+									450
+								</span>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</main>
+		<!--insta clone footer-->
+		<footer class="footer">
+			<nav class="footer_nav">
+				<ul class="footer_link_list">
+					<li class="footer_items">
+						<a href="#none" title="about us">
+							about us
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="support">
+							support
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="blog">
+							blog
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="press">
+							press
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="api">
+							api
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="jobs">
+							jobs
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="privacy policy">
+							privacy policy
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="terms">
+							terms
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="directory">
+							directory
+						</a>
+					</li>
+					<li class="footer_items">
+						<a href="#none" title="language">language</a>
+					</li>
+				</ul>
+			</nav>
+			<span class="footer_copyright">
+				&copy; 2017 Instagram_clone_lectured_by_Alex Kyungho Park | clone_page_by_jimmyZip
+			</span>
+		</footer>
+		<script
+		  src="https://code.jquery.com/jquery-3.2.1.min.js"
+		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		  crossorigin="anonymous"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
