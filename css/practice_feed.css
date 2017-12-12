@@ -1,4 +1,4 @@
-.blue{
+/*.blue{
 	max-width:100px;
 	height:100px;
 	border:1px solid blue;
@@ -26,4 +26,52 @@
 	color:#000;
 	background-color:#ccc;
 	margin:10px;
+}*/
+
+/* 3회차 수업에서 이어 수정*/
+body{
+	margin:0;
+	padding:0;
+	height:10000px;
 }
+.boxcontainer{
+	/*display:flex;
+	justify-content:center;
+	justify-content:flex-start;
+	justify-content:flex-end;
+	justify-content:space-between;
+	justify-content:space-around;*/
+	display:inline-flex;
+}
+.boxcontainer div{
+	color:#fff;
+	width:100px;
+	height:100px;
+	padding:10px;
+	box-sizing:border-box;
+	border:10px;
+	text-align:center;
+	line-height:80px;
+}
+.bluebox{
+	background-color:blue;
+	position:relative;
+	left:100px;
+}
+
+.greenbox{
+	background-color:green;
+	position:absolute;
+	top:100px;
+}
+
+.yellowbox{
+	background-color:yellow;
+	position:fixed;
+	top:100px;
+}
+
+/*
+	box-sizing:content-box;
+	+ 마진 미포함
+*/
