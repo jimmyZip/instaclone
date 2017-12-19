@@ -1,3 +1,6 @@
 /* import css files, like a hub */
 
-@import "feed.css";
+@import 'feed.css';
+@import 'login.css';
+@import 'register.css';
+@import 'profile.css';

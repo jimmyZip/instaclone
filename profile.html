@@ -53,192 +53,194 @@
 			</nav>
 		</header>
 		<!-- main : photo feed display zone -->
-		<main id="profile_zone">
-			<!--  header in profile_zone -->
-			<header class="profile_header">
-				<!--profile image-->
-				<div class="profile_image_container">
-					<img class="profile_avatar" src="images/avatar.jpg" alt="profile_avatar_image"/>
-				</div>
-				<!--profile info-->
-				<div class="profile_info">
-					<!-- name, editing profile btn, settings -->
-					<ul class="profile_name">
-						<li>
-							<h2>Sana_Twice_clone</h2>
-							<button class="profile_name_btn" type="button">
-								<a href="edit.html" title="editing profile page">
-									Edit Profile
-								</a>
-							</button>
-							<button class=""profile_name_setting type="button">
-								<a href="edit.html" title="editing profile page_setting">
-									<i class="fa fa-cog"></i>
-								</a>
-							</button>
-						</li>
-					</ul>
-
-					<!-- posts, followers, following -->
-					<ul class="profile_status">
-						<li class="profile_status_post">
-							<span class="post_num">312</span>post
-						</li>
-						<li class="profile_status_follower">
-							<span class="follower_num">284</span>followers
-						</li>
-						<li class="profile_status_following">
-							<span class="following_num">282</span>following
-						</li>
-					</ul>
-
-					<!-- name, profile description -->
-					<div class="profile_description">
-						<ul>
+		<main id="profile_zone_container">
+			<section class="profile_zone">
+				<!--  header in profile_zone -->
+				<header class="profile_header">
+					<!--profile image-->
+					<div class="profile_image_container">
+						<img class="profile_avatar" src="images/avatar.jpg" alt="profile_avatar_image"/>
+					</div>
+					<!--profile info-->
+					<div class="profile_info">
+						<!-- name, editing profile btn, settings -->
+						<ul class="profile_name">
 							<li>
-								<span class="description_name">
-									Sana_Twice_clone
-								</span>
-								<a href="#none" title="hash tag">
-									#Cheeeeeeese_Gimbab!!
+								<h2>Sana_Twice_clone</h2>
+								<a href="edit.html" title="editing profile" class="profile_name_btn">
+									<button type="button">
+										Edit Profile
+									</button>
 								</a>
+								<button class=""profile_name_setting type="button">
+									<a href="edit.html" title="editing profile page_setting">
+										<i class="fa fa-cog"></i>
+									</a>
+								</button>
 							</li>
 						</ul>
+
+						<!-- posts, followers, following -->
+						<ul class="profile_status">
+							<li class="profile_status_post">
+								<span class="post_num">312</span>post
+							</li>
+							<li class="profile_status_follower">
+								<span class="follower_num">284</span>followers
+							</li>
+							<li class="profile_status_following">
+								<span class="following_num">282</span>following
+							</li>
+						</ul>
+
+						<!-- name, profile description -->
+						<div class="profile_description">
+							<ul>
+								<li>
+									<span class="description_name">
+										Sana_Twice_clone
+									</span>
+									<a href="#none" title="hash tag">
+										#Cheeeeeeese_Gimbab!!
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
+				</header>
+				
+				<!-- images part -->
+				<div class="profile_row_image_container">
+					<ul class="profile_images">
+						<li class="profile_row_image_container">
+							<a href="image_detail.html">
+								<img src="images/twice_sana.jpg" alt="sana_img1" class="profile_row_image"/>
+								<div class="profile_row_image_overlay">
+									<span class="profile_row_image_stat">
+										<i class="fa fa-heart fa-lg"></i>239
+									</span>
+									<span class="profile_row_image_stat">
+										<i class="fa fa-comment fa-lg"></i>
+										450
+									</span>
+								</div>
+							</a>
+						</li>
+						<li class="profile_row_image_container">
+							<a href="image_detail.html">
+								<img src="images/back.jpg" alt="sana_img2" class="profile_row_image"/>
+								<div class="profile_row_image_overlay">
+									<span class="profile_row_image_stat">
+										<i class="fa fa-heart fa-lg"></i>239
+									</span>
+									<span class="profile_row_image_stat">
+										<i class="fa fa-comment fa-lg"></i>
+										450
+									</span>
+								</div>
+							</a>
+						</li>
+						<li class="profile_row_image_container">
+							<a href="image_detail.html">
+								<img src="images/cheesegimbab.jpg" alt="sana_img3" class="profile_row_image"/>
+								<div class="profile_row_image_overlay">
+									<span class="profile_row_image_stat">
+										<i class="fa fa-heart fa-lg"></i>999
+									</span>
+									<span class="profile_row_image_stat">
+										<i class="fa fa-comment fa-lg"></i>
+										999
+									</span>
+								</div>
+							</a>
+						</li>
+						<li class="profile_row_image_container">
+							<a href="image_detail.html">
+								<img src="images/gf_jjal.jpg" alt="sana_img4" class="profile_row_image"/>
+								<div class="profile_row_image_overlay">
+									<span class="profile_row_image_stat">
+										<i class="fa fa-heart fa-lg"></i>239
+									</span>
+									<span class="profile_row_image_stat">
+										<i class="fa fa-comment fa-lg"></i>
+										450
+									</span>
+								</div>
+							</a>
+						</li>
+						<li class="profile_row_image_container">
+							<a href="image_detail.html">
+								<img src="images/pink_sana.jpg" alt="sana_img5" class="profile_row_image"/>
+								<div class="profile_row_image_overlay">
+									<span class="profile_row_image_stat">
+										<i class="fa fa-heart fa-lg"></i>239
+									</span>
+									<span class="profile_row_image_stat">
+										<i class="fa fa-comment fa-lg"></i>
+										450
+									</span>
+								</div>
+							</a>
+						</li>
+						<li class="profile_row_image_container">
+							<a href="image_detail.html">
+								<img src="images/sana_mana.jpg" alt="sana_img6" class="profile_row_image"/>
+								<div class="profile_row_image_overlay">
+									<span class="profile_row_image_stat">
+										<i class="fa fa-heart fa-lg"></i>239
+									</span>
+									<span class="profile_row_image_stat">
+										<i class="fa fa-comment fa-lg"></i>
+										450
+									</span>
+								</div>
+							</a>
+						</li>
+						<li class="profile_row_image_container">
+							<a href="image_detail.html">
+								<img src="images/signal_sana.jpg" alt="sana_img7" class="profile_row_image"/>
+								<div class="profile_row_image_overlay">
+									<span class="profile_row_image_stat">
+										<i class="fa fa-heart fa-lg"></i>239
+									</span>
+									<span class="profile_row_image_stat">
+										<i class="fa fa-comment fa-lg"></i>
+										450
+									</span>
+								</div>
+							</a>
+						</li>
+						<li class="profile_row_image_container">
+							<a href="image_detail.html">
+								<img src="images/sorry_sana.jpg" alt="sana_img8" class="profile_row_image"/>
+								<div class="profile_row_image_overlay">
+									<span class="profile_row_image_stat">
+										<i class="fa fa-heart fa-lg"></i>239
+									</span>
+									<span class="profile_row_image_stat">
+										<i class="fa fa-comment fa-lg"></i>
+										450
+									</span>
+								</div>
+							</a>
+						</li>
+						<li class="profile_row_image_container">
+							<a href="image_detail.html">
+								<img src="images/tt_sana.jpg" alt="sana_img9" class="profile_row_image"/>
+								<div class="profile_row_image_overlay">
+									<span class="profile_row_image_stat">
+										<i class="fa fa-heart fa-lg"></i>239
+									</span>
+									<span class="profile_row_image_stat">
+										<i class="fa fa-comment fa-lg"></i>
+										450
+									</span>
+								</div>
+							</a>
+						</li>
+					</ul>
 				</div>
-			</header>
-			
-			<!-- images part -->
-			<div class="profile_row_image_container">
-				<ul class="profile_images">
-					<li class="profile_row_image_container">
-						<a href="image_detail.html">
-							<img src="images/twice_sana.jpg" alt="sana_img1" class="profile_row_image"/>
-							<div class="profile_row_image_overlay">
-								<span class="profile_row_image_stat">
-									<i class="fa fa-heart fa-lg"></i>239
-								</span>
-								<span class="profile_row_image_stat">
-									<i class="fa fa-comment fa-lg"></i>
-									450
-								</span>
-							</div>
-						</a>
-					</li>
-					<li class="profile_row_image_container">
-						<a href="image_detail.html">
-							<img src="images/back.jpg" alt="sana_img2" class="profile_row_image"/>
-							<div class="profile_row_image_overlay">
-								<span class="profile_row_image_stat">
-									<i class="fa fa-heart fa-lg"></i>239
-								</span>
-								<span class="profile_row_image_stat">
-									<i class="fa fa-comment fa-lg"></i>
-									450
-								</span>
-							</div>
-						</a>
-					</li>
-					<li class="profile_row_image_container">
-						<a href="image_detail.html">
-							<img src="images/cheesegimbab.jpg" alt="sana_img3" class="profile_row_image"/>
-							<div class="profile_row_image_overlay">
-								<span class="profile_row_image_stat">
-									<i class="fa fa-heart fa-lg"></i>999
-								</span>
-								<span class="profile_row_image_stat">
-									<i class="fa fa-comment fa-lg"></i>
-									999
-								</span>
-							</div>
-						</a>
-					</li>
-					<li class="profile_row_image_container">
-						<a href="image_detail.html">
-							<img src="images/gf_jjal.jpg" alt="sana_img4" class="profile_row_image"/>
-							<div class="profile_row_image_overlay">
-								<span class="profile_row_image_stat">
-									<i class="fa fa-heart fa-lg"></i>239
-								</span>
-								<span class="profile_row_image_stat">
-									<i class="fa fa-comment fa-lg"></i>
-									450
-								</span>
-							</div>
-						</a>
-					</li>
-					<li class="profile_row_image_container">
-						<a href="image_detail.html">
-							<img src="images/pink_sana.jpg" alt="sana_img5" class="profile_row_image"/>
-							<div class="profile_row_image_overlay">
-								<span class="profile_row_image_stat">
-									<i class="fa fa-heart fa-lg"></i>239
-								</span>
-								<span class="profile_row_image_stat">
-									<i class="fa fa-comment fa-lg"></i>
-									450
-								</span>
-							</div>
-						</a>
-					</li>
-					<li class="profile_row_image_container">
-						<a href="image_detail.html">
-							<img src="images/sana_mana.jpg" alt="sana_img6" class="profile_row_image"/>
-							<div class="profile_row_image_overlay">
-								<span class="profile_row_image_stat">
-									<i class="fa fa-heart fa-lg"></i>239
-								</span>
-								<span class="profile_row_image_stat">
-									<i class="fa fa-comment fa-lg"></i>
-									450
-								</span>
-							</div>
-						</a>
-					</li>
-					<li class="profile_row_image_container">
-						<a href="image_detail.html">
-							<img src="images/signal_sana.jpg" alt="sana_img7" class="profile_row_image"/>
-							<div class="profile_row_image_overlay">
-								<span class="profile_row_image_stat">
-									<i class="fa fa-heart fa-lg"></i>239
-								</span>
-								<span class="profile_row_image_stat">
-									<i class="fa fa-comment fa-lg"></i>
-									450
-								</span>
-							</div>
-						</a>
-					</li>
-					<li class="profile_row_image_container">
-						<a href="image_detail.html">
-							<img src="images/sorry_sana.jpg" alt="sana_img8" class="profile_row_image"/>
-							<div class="profile_row_image_overlay">
-								<span class="profile_row_image_stat">
-									<i class="fa fa-heart fa-lg"></i>239
-								</span>
-								<span class="profile_row_image_stat">
-									<i class="fa fa-comment fa-lg"></i>
-									450
-								</span>
-							</div>
-						</a>
-					</li>
-					<li class="profile_row_image_container">
-						<a href="image_detail.html">
-							<img src="images/tt_sana.jpg" alt="sana_img9" class="profile_row_image"/>
-							<div class="profile_row_image_overlay">
-								<span class="profile_row_image_stat">
-									<i class="fa fa-heart fa-lg"></i>239
-								</span>
-								<span class="profile_row_image_stat">
-									<i class="fa fa-comment fa-lg"></i>
-									450
-								</span>
-							</div>
-						</a>
-					</li>
-				</ul>
-			</div>
+			</section>
 		</main>
 		<!--insta clone footer-->
 		<footer class="footer">
@@ -294,9 +296,9 @@
 					</li>
 				</ul>
 			</nav>
-			<span class="footer_copyright">
+			<p class="footer_copyright">
 				&copy; 2017 Instagram_clone_lectured_by_Alex Kyungho Park | clone_page_by_jimmyZip
-			</span>
+			</p>
 		</footer>
 		<script
 		  src="https://code.jquery.com/jquery-3.2.1.min.js"

@@ -1,0 +1,228 @@
+/* wrapper */
+#login_wrapper{
+	width:100%;
+	min-height:100%;
+	background-color:#fafafa;
+	padding-top:30px;
+	overflow:hidden;
+}
+
+/* login_container */
+.login_container{
+	max-width:935px;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	flex-grow:1;
+	justify-content:center;
+	align-content:center;
+	align-items:stretch;
+	margin:0 auto;
+}
+
+/* image area on the left */
+.img_area{
+	width:454px;
+	height:618px;
+	/*margin-left:-35px;*/
+	margin-right:-3.5rem;
+	align-self:center;
+}
+
+/* form area for login on the right */
+.form_area_container{
+	flex-grow:1;
+	margin-top:0.75rem;
+	max-width:350px;
+	justify-content:center;
+	align-content:center;
+	align-self:center;
+	align-items:stretch;
+}
+
+/* fieldset 1 input area*/
+.box1{
+	/*max-width:350px;*/
+	border:none;
+	border:1px solid #e6e6e6;
+	background-color:#fff;
+	overflow:hidden;
+	padding:10px 0;
+	margin:0 0 10px;
+}
+.box1 legend{
+	display:none;
+}
+.logo_for_sign_in{
+	width:175px;
+	height:51px;
+	/*background-color:pink;*/
+	background-image:url(../images/icon_bundle.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	margin:22px auto 12px;
+}
+.input_area{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+}
+.input_area input{
+	margin:0 40px;
+	border:none;
+	border:1px solid #efefef;
+	border-radius:5px;
+	padding:9px 0 7px 8px;
+	background-color:#fafafa;
+	font-size:0.875rem;
+	line-height:1.125rem;
+}
+.input_area input[type='submit']{
+	background-color:#3897F0;
+	color:#fff;
+	margin:8px 40px;
+}
+#username{
+	margin-bottom:6px;
+}
+
+/* divide_line */
+.divide_line{
+	margin:10px 40px 18px;
+	display:flex;
+	justify-content:center;
+	flex-direction:row;
+}
+/*
+.div_line{
+	font-size:0.8125rem;
+	line-height:0.9375rem;
+	color:#999;
+}
+.div_line:before{
+	content:'';
+	display:inline-block;
+	width:50px;
+	height:1px;
+	background-color:#999;
+	transform:translatey(-0.2rem);
+}
+.div_line:after{
+	content:'';
+	display:inline-block;
+	width:50px;
+	height:1px;
+	background-color:#999;
+	transform:translatey(-0.2rem);
+}
+*/
+.div_line_text{
+	color:#999;
+	font-size:0.8125rem;
+	line-height:0.9375rem;
+	margin:0 1.125rem;
+}
+.div_line{
+	flex-grow:1;
+	flex-shrink:1;
+	height:1px;
+	background-color:#999;
+	position:relative;
+	top:0.5rem;
+}
+
+/* alternate_login */
+.alternate_login{
+	margin:8px 30px;
+}
+.alternate_login a{
+	outline:none;
+	display:inline-block;
+	width:100%;
+	text-decoration:none;
+	color:#385185;
+	text-align:center;
+}
+.bg_icon_fb{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background-image:url(../images/icon_bundle.png);
+	background-repeat:none;
+	background-position:-414px -391px;
+	transform:translatey(3px);
+}
+
+/* pw_reset */
+.pw_reset{
+	margin-top:0.75rem;
+	text-align:center;
+}
+.pw_reset a{
+	outline:none;
+	text-decoration:none;
+	color:#385185;
+	font-size:0.75rem;
+}
+
+/* fieldset2 signup link*/
+.box2{
+	max-width:350px;
+	border:none;
+	border:1px solid #e6e6e6;
+	background-color:#fff;
+	overflow:hidden;
+	padding:10px 0;
+	margin:0 0 10px;
+}
+.box2 legend{
+	display:none;
+}
+.register_link{
+	margin:0.9375rem;
+	text-align:center;
+	color:#262626;
+	font-size:0.875rem;
+}
+.register_link a{
+	color:#3897f0;
+	outline:none;
+	text-decoration:none;
+}
+
+/* download app link */
+.mobile_app_link{
+	display:flex;
+	flex-direction:column;
+}
+.mobile_app_link span{
+	display:inline-block;
+	color:#262626;
+	line-height:1.125rem;
+	font-size:0.875rem;
+	margin:10px 20px;
+	text-align:center;
+}
+/* download link btns */
+.link_btn_container{
+	display:flex;
+	justify-content:center;
+	margin:10px 0;
+}
+.link_btn_container a{
+	text-decoration:none;
+	color:#003569;
+	height:2.5rem;
+}
+.for_android{
+	margin-right:0.5rem;
+}
+.link_btn_container a img{
+	width:136px;
+	height:100%;
+}
+
+/* footer */
+.footer{
+	
+}

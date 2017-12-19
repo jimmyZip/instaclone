@@ -1,0 +1,122 @@
+/* wrapper */
+#register_wrapper{
+	width:100%;
+	min-height:100%;
+	background-color:#fafafa;
+	padding-top:30px;
+	overflow:hidden;
+}
+
+/* register_container */
+.register_container{
+	max-width:935px;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	flex-grow:1;
+	justify-content:center;
+	align-content:center;
+	align-items:stretch;
+	margin:0 auto;
+}
+
+/* image area on the left */
+.img_area{}
+
+/* form area for login on the right */
+.form_area_container{}
+
+/* fieldset 1 input area*/
+.box1{}
+.box1 legend{}
+.logo_for_sign_up{
+	width:175px;
+	height:51px;
+	/*background-color:pink;*/
+	background-image:url(../images/icon_bundle.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	margin:22px auto 12px;
+}
+
+/* register page's alternate_login */
+.register_alternate_login{
+	margin:8px 40px;
+	background-color:#3897f0;
+	border-radius:3px;
+}
+.register_alternate_login a{
+	outline:none;
+	display:inline-block;
+	width:100%;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	line-height:1.625rem;
+	font-size:0.875rem;
+	font-weight:600;
+}
+.register_bg_icon_fb{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background-image:url(../images/icon_bundle.png);
+	background-repeat:none;
+	background-position:-335px -114px;
+	transform:translatey(3px);
+}
+
+/* divide_line */
+.divide_line{}
+
+.div_line_text{}
+.div_line{}
+
+/* input_area*/
+.input_area{}
+.input_area input{}
+.input_area input[type='submit']{}
+#username{}
+
+/* register_info */
+.register_info{
+	margin:10px 60px;
+	font-size:0.875rem;
+	line-height:1.125rem;
+	text-align:center;
+	color:#999;
+}
+.register_info span a{
+	text-transform:capitalize;
+	color:#999;
+	font-weight:700;
+}
+
+/* fieldset2 login link*/
+.box2{}
+.box2 legend{}
+.sign_in_link{
+	margin:0.9375rem;
+	text-align:center;
+	color:#262626;
+	font-size:0.875rem;
+}
+.sing_in_link a{
+	color:#3897f0;
+	outline:none;
+	text-decoration:none;
+}
+
+/* download app link */
+.mobile_app_link{}
+.mobile_app_link span{}
+/* download link btns */
+.link_btn_container{}
+.link_btn_container a{}
+.for_android{}
+.link_btn_container a img{}
+
+/* footer */
+.footer_items a{
+	text-transform:uppercase;
+}

@@ -9,3 +9,8 @@
 li{
 	list-style-type:none;
 }
+a{
+	outline:none;
+	text-decoration:none;
+	cursor:pointer;
+}
