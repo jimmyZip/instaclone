@@ -7,8 +7,12 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/reset.css" type="text/css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="js/custom.js"></script>
+		<script
+		  src="https://code.jquery.com/jquery-3.2.1.min.js"
+		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		  crossorigin="anonymous"></script>
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+		
 	</head>
 	<body>
 		<!--Instagram Header-->
@@ -75,7 +79,7 @@
 				<div class="contents_container">
 					<!--좋아요 등의 사용자 액션 아이콘 표시부분-->
 					<div class="action_container">
-						<i class="fa fa-heart-o"></i>
+						<i class="fa heart fa-heart-o"></i>
 						<i class="fa fa-comment-o"></i>
 					</div>
 					<!-- likes numeric 좋아요 갯수 카운팅존 -->
@@ -98,7 +102,7 @@
 					<span class="upload_time">13 hores ago</span>
 					<!-- adding comment-->
 					<div class="addComment_container">
-						<input type="text" placeholder="Add comment here...">
+						<input class="photo_addcomment_area" type="text" placeholder="Add comment here...">
 						<i class="fa fa-ellipsis-h"></i>
 					</div>
 				</div>
