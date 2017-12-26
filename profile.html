@@ -7,6 +7,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/reset.css" type="text/css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/custom.js"></script>
 	</head>
 	<body>
 		<!--Instagram Header-->
@@ -21,11 +23,15 @@
 				</div>
 				<!--search-->
 				<div class="search_container">
-					<div class="search_logo">
-						<i class="fa fa-search"></i>
-					</div>
 					<div class="query">
-						<input id="searchbox" type="text" name="searchbox" placeholder="search"/>
+						<!-- 
+						<div class="search_logo">
+							<i class="fa fa-search"></i>
+						</div>
+						 -->
+						<input id="searchbox" class="search_content" type="text" name="searchbox" placeholder="Search"/>
+						<i class="fa fa-search searh_logo"></i>
+						<span class="x_btn"></span>
 					</div>
 				</div>
 				
@@ -59,7 +65,9 @@
 				<header class="profile_header">
 					<!--profile image-->
 					<div class="profile_image_container">
-						<img class="profile_avatar" src="images/avatar.jpg" alt="profile_avatar_image"/>
+						<p class="profile_image_frame">
+							<img class="profile_avatar" src="images/avatar.jpg" alt="profile_avatar_image"/>
+						</p>					
 					</div>
 					<!--profile info-->
 					<div class="profile_info">
@@ -67,16 +75,16 @@
 						<ul class="profile_name">
 							<li>
 								<h2>Sana_Twice_clone</h2>
-								<a href="edit.html" title="editing profile" class="profile_name_btn">
+								<a class="profile_name_btn" href="edit.html" title="editing profile">
 									<button type="button">
 										Edit Profile
 									</button>
 								</a>
-								<button class=""profile_name_setting type="button">
+								<span class="profile_name_setting">
 									<a href="edit.html" title="editing profile page_setting">
 										<i class="fa fa-cog"></i>
 									</a>
-								</button>
+								</span>
 							</li>
 						</ul>
 
@@ -84,11 +92,11 @@
 						<ul class="profile_status">
 							<li class="profile_status_post">
 								<span class="post_num">312</span>post
-							</li>
-							<li class="profile_status_follower">
+							</li><!--
+						 --><li class="profile_status_follower">
 								<span class="follower_num">284</span>followers
-							</li>
-							<li class="profile_status_following">
+							</li><!--
+						 --><li class="profile_status_following">
 								<span class="following_num">282</span>following
 							</li>
 						</ul>
@@ -108,10 +116,24 @@
 						</div>
 					</div>
 				</header>
-				
+				<!-- tab menu -->
+				<div class="tabMenu_container">
+					<div class="tabMenu">
+						<a class="tab_btn" href="profile.html" title="profile posts">
+							<span>
+								POSTS
+							</span>
+						</a>
+						<a class="tab_btn" href="saved" title="saved profile">
+							<span>
+								SAVED
+							</span>
+						</a>
+					</div>
+				</div>
 				<!-- images part -->
-				<div class="profile_row_image_container">
-					<ul class="profile_images">
+				<div class="profile_image_grid_container">
+					<ul class="profile_images_row row1">
 						<li class="profile_row_image_container">
 							<a href="image_detail.html">
 								<img src="images/twice_sana.jpg" alt="sana_img1" class="profile_row_image"/>
@@ -154,6 +176,8 @@
 								</div>
 							</a>
 						</li>
+					</ul>
+					<ul class="profile_images_row row2">
 						<li class="profile_row_image_container">
 							<a href="image_detail.html">
 								<img src="images/gf_jjal.jpg" alt="sana_img4" class="profile_row_image"/>
@@ -196,6 +220,8 @@
 								</div>
 							</a>
 						</li>
+					</ul>
+					<ul class="profile_images_row row3">
 						<li class="profile_row_image_container">
 							<a href="image_detail.html">
 								<img src="images/signal_sana.jpg" alt="sana_img7" class="profile_row_image"/>
